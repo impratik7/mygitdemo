@@ -1,13 +1,17 @@
 class A
 {
 
-	void mymethod()
+	static void mymethod()
 	{
 		System.out.println("bug");
+		
+	
 	}
 public static void main(String args[])
 {
 	System.out.println("HELLO DEVOPS & GIT !!!!!!");
+	
+	A.mymethod()
 	
 }
 };
